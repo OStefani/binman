@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>object</title>
+    <desc>Created with Sketch.</desc>
+    <g id="pages/clients/clients-list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pages/clients/clients-list/clients-list_test" transform="translate(-887.000000, -224.000000)" fill="#475364">
+            <g id="list-item" transform="translate(110.000000, 194.000000)">
+                <path d="M787,30 L787,31 L789,31 L789,44 L784,44 L784,42 L782,42 L782,44 L777,44 L777,31 L779,31 L779,30 L787,30 Z M779,39 L781,39 L781,37 L779,37 L779,39 Z M779,36 L781,36 L781,34 L779,34 L779,36 Z M782,39 L784,39 L784,37 L782,37 L782,39 Z M782,36 L784,36 L784,34 L782,34 L782,36 Z M785,39 L787,39 L787,37 L785,37 L785,39 Z M785,36 L787,36 L787,34 L785,34 L785,36 Z" id="object"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>active-individual-client</title>
+    <desc>Created with Sketch.</desc>
+    <g id="pages/clients/clients-list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pages/clients/clients-list/clients-list_test" transform="translate(-141.000000, -450.000000)" fill="#FFFFFF">
+            <g id="list-item" transform="translate(110.000000, 422.000000)">
+                <g id="active-individual-client" transform="translate(20.000000, 19.000000)">
+                    <path d="M15,18 C16.3266602,18.6666667 17.3266602,19 18,19 C18.6599935,19 19.6599935,18.6666667 21,18 C23,18 24.3333333,19.3333333 25,22 L25,25 C25,26.3333333 24.3333333,27 23,27 L13,27 C11.6666667,27 11,26.3333333 11,25 L11,22 C11.6666667,19.3333333 13,18 15,18 Z M18,17 C15.790861,17 14,15.209139 14,13 C14,10.790861 15.790861,9 18,9 C20.209139,9 22,10.790861 22,13 C22,15.209139 20.209139,17 18,17 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

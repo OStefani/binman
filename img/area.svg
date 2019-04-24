@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>area</title>
+    <desc>Created with Sketch.</desc>
+    <g id="pages/clients/clients-list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pages/clients/clients-list/clients-list_test" transform="translate(-1176.000000, -215.000000)" fill="#475364">
+            <g id="list-item" transform="translate(110.000000, 194.000000)">
+                <path d="M1073,35 C1069.13401,35 1066,31.8659932 1066,28 C1066,24.1340068 1069.13401,21 1073,21 C1076.86599,21 1080,24.1340068 1080,28 C1080,31.8659932 1076.86599,35 1073,35 Z M1073,33 C1075.42249,33 1077.4426,31.2872204 1077.902,29 C1077.92482,28.8864141 1076.29081,28.8864141 1073,29 L1073,27 L1077.90115,27 C1077.44013,24.7148724 1075.42101,23 1073,23 C1070.23858,23 1068,25.2385763 1068,28 C1068,30.7614237 1070.23858,33 1073,33 Z" id="area"></path>
+            </g>
+        </g>
+    </g>
+</svg>

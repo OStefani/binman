@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>money</title>
+    <desc>Created with Sketch.</desc>
+    <g id="pages/clients/clients-list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pages/clients/clients-list/clients-list_test" transform="translate(-1023.000000, -215.000000)" fill="#475364" fill-rule="nonzero">
+            <g id="list-item" transform="translate(110.000000, 194.000000)">
+                <path d="M913,33 L915,33 L915,35 L917,35 L917,33 L922,33 L922,31 L917,31 L917,29 L921,29 C923.666667,28.6275228 925,27.2936401 925,24.9983521 C925,22.703064 923.666667,21.3702799 921,21 L915,21 C914.941606,21 914.941606,22.9989014 915,26.9967041 L913,26.9967041 L913,29 L915,29 L915,31 L913,31 L913,33 Z M917,23 L920.5,23 C922.166667,23.1507975 923,23.8169149 923,24.9983521 C923,26.1797892 922.166667,26.8459066 920.5,26.9967041 L917,26.9967041 L917,23 Z" id="money"></path>
+            </g>
+        </g>
+    </g>
+</svg>

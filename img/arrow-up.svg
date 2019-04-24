@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>select-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="pages/clients/clients-list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pages/clients/clients-list/clients-list_test-2" transform="translate(-1366.000000, -447.000000)">
+            <g id="list-item" transform="translate(110.000000, 422.000000)">
+                <g id="select-arrow" transform="translate(1256.000000, 25.000000)">
+                    <circle id="background" fill="#F4F9FB" cx="12" cy="12" r="12"></circle>
+                    <path d="M15.8802332,11.2041235 C16.0399223,11.0662563 16.0399223,10.4906785 15.8802332,10.3528788 L15.5910004,10.103333 C15.4312071,9.96555567 15.1721456,9.96555567 15.0125608,10.103333 L11.9999642,13.4030621 L8.98778443,10.103333 C8.82791301,9.96555567 8.5686691,9.96555567 8.40913639,10.103333 L8.11990357,10.3528788 C7.96003214,10.4906785 7.96003214,11.0662563 8.11990357,11.2041235 L11.6772214,14.8965659 C11.8368583,15.034478 12.3847199,15.034478 12.5444089,14.8965659 L15.8802332,11.2041235" fill="#475364" transform="translate(12.000000, 12.500000) scale(1, -1) translate(-12.000000, -12.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

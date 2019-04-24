@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Binman</title>
+    <!-- build:css styles.min.css -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="top-line">
+            <a href="#"><img src="./img/logo.svg" alt=""></a>
+        </div>
+        <div class="left-line">
+            <img src="./img/clients.svg" alt="">
+        </div>
+        <div class="content-container">
+            <div class="container">
+                <header>
+                    <h1 class="title-page">Ваши клиенты</h1>
+                    <p class="sub-title">Всего погрузок: <span>2020</span></p>
+                </header>
+                <div class="table-container mt-4">
+                    <div class="table-header d-flex align-items-center py-3 px-4 mobile-none">
+                        <div class="column-1">Клиент</div>
+                        <div class="column-2">Договоры</div>
+                        <div class="column-3">Объекты</div>
+                        <div class="column-4">Начисления и объем</div>
+                        <div class="column-5">Геозоны и контейнеры</div>
+                    </div>
+
+                    <div class="accordion" id="accordion">
+                    <div class="table-body">
+                        <div class="card">
+                            <div class="card-header py-3 px-4" id="headingOne">
+
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center column-1 flex-nowrap">
+                                        <div class="icon-client icon-client_active mr-2 flex-shrink-0">
+                                            <img src="./img/active-company.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="client-name">
+                                                УФССП России по Кемеровской области
+                                            </div>
+                                            <div class="client-content">
+                                                ИНН: <span>4205077474</span>
+                                            </div>
+                                            <div class="client-content">
+                                                ОГРН: <span>1044205103832</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex align-items-center column-2 flex-nowrap">
+                                        <div class="icon-client icon-client_active mr-2 flex-shrink-0">
+                                            <img src="./img/documents.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="client-name">
+                                                №12-СЖ/12 от 24.01.2019
+                                            </div>
+                                            <div class="client-content">
+                                                Тип договора: <span>по норме</span>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="column-3">
+                                        <img src="./img/object.svg" alt="" class="column-3__obj">
+                                        <span class="column-3__cont">2</span>&nbsp;<span
+                                            class="column-3__cont">объекта</span>
+                                    </div>
+                                    <div class="column-4">
+                                        <div class="">
+                                            <img src="./img/money.svg" alt="" class="mr-1">
+                                            <span class="column-4__cont">3040</span>&nbsp;<span
+                                                class="column-4__cont">Р</span>
+                                        </div>
+                                        <div class="">
+                                            <img src="./img/recycle.svg" alt="" class="mr-1">
+                                            <span class="column-4__cont">8</span>&nbsp;<span class="column-4__cont">м<sup
+                                                    class="column-4__cont">3</sup></span>
+                                        </div>
+                                    </div>
+                                    <div class="column-5">
+                                        <div class="">
+                                            <img src="./img/area.svg" alt="" class="mr-1">
+                                            <span class="column-5__cont">1</span>&nbsp;<span
+                                                class="column-5__cont">геозона</span>
+                                        </div>
+                                        <div class="">
+                                            <img src="./img/container.svg" alt="" class="mr-1">
+                                            <span class="column-5__cont">6</span>&nbsp;<span
+                                                class="column-5__cont">контейнеров - <span
+                                                    class="column-5__cont">6.6</span>&nbsp;<span
+                                                    class="column-5__cont">м</span><sup
+                                                    class="column-5__cont">2</sup></span>
+                                        </div>
+                                    </div>
+                                    <div class="button-acc" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        <img src="./img/arrow-down.svg" alt="" class="button-img">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="card-body_header">Объекты клиента</div>
+                                    <div class="total mb-3">Всего объектов:&nbsp;<span>2</span></div>
+                                    <div class="card-body-table">
+                                        <div class="card-body-table_header px-4 py-3">Объект</div>
+                                        <div class="objects">
+
+                                        </div>
+                                        <div class="card-body-footer d-flex justify-content-between mt-3">
+                                            <a href="#" class="btn btn-light card-body_button"><img src="./img/card.svg" alt="" class="mr-2">Перейти в карточку</a>
+                                            <a href="#" class="btn btn-hide" data-toggle="collapse" data-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">Скрыть детали</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="table-body">
+                        <div class="card">
+                            <div class="card-header py-3 px-4" id="headingTwo">
+
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center column-1 flex-nowrap">
+                                        <div class="icon-client icon-client_notactive mr-2 flex-shrink-0">
+                                            <img src="./img/not-active-company.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="client-name">
+                                                ООО "СИСТЕМА УНИВЕРСАМОВ "БЕГЕМОТ"
+                                            </div>
+                                            <div class="client-content">
+                                                ИНН: <span>4205259611</span>
+                                            </div>
+                                            <div class="client-content">
+                                                ОГРН: <span>1134205003580</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex align-items-center column-2 justify-content-justify align-items-small">
+                                        <div class="icon-client icon-client_gray mr-2">
+                                            <img src="./img/documents.svg" alt="">
+                                        </div>
+                                        <div class="d-flex client-name-cont justify-content-center">
+                                            <div
+                                                class="client-name_gray d-flex justify-content-center align-items-center text-white px-2">
+                                                C клиентом заключено 2 договора
+                                            </div>
+                                            <a href="#"
+                                                class="client_gray-button d-flex justify-content-center align-items-center text-white">
+                                                Подробнее
+                                            </a href="#">
+
+                                        </div>
+
+                                    </div>
+                                    <div class="column-3">
+                                        <img src="./img/object.svg" alt="" class="column-3__obj">
+                                        <span class="column-3__cont">327</span>&nbsp;<span class="column-3__cont">объектов</span>
+                                    </div>
+                                    <div class="column-4">
+                                        <div class="">
+                                            <img src="./img/money.svg" alt="" class="mr-1">
+                                            <span class="column-4__cont">238 985.15</span>&nbsp;<span
+                                                class="column-4__cont">Р</span>
+                                        </div>
+                                        <div class="">
+                                            <img src="./img/recycle.svg" alt="" class="mr-1">
+                                            <span class="column-4__cont">236.52</span>&nbsp;<span class="column-4__cont">м<sup
+                                                    class="column-4__cont">3</sup></span>
+                                        </div>
+                                    </div>
+                                    <div class="column-5">
+                                        <div class="">
+                                            <img src="./img/area.svg" alt="" class="mr-1">
+                                            <span class="column-5__cont">2</span>&nbsp;<span
+                                                class="column-5__cont">геозоны</span>
+                                        </div>
+                                        <div class="">
+                                            <img src="./img/container.svg" alt="" class="mr-1">
+                                            <span class="column-5__cont">3</span>&nbsp;<span
+                                                class="column-5__cont">контейнера - <span
+                                                    class="column-5__cont">10.2</span>&nbsp;<span
+                                                    class="column-5__cont">м</span><sup
+                                                    class="column-5__cont">2</sup></span>
+                                        </div>
+                                    </div>
+                                    <div class="button-acc" data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        <img src="./img/arrow-down.svg" alt="" class="button-img">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="card-body_header">Объекты клиента</div>
+                                    <div class="total mb-3">Всего объектов:&nbsp;<span>2</span></div>
+                                    <div class="card-body-table">
+                                        <div class="card-body-table_header px-4 py-3">Объект</div>
+                                        <div class="objects">
+                                            
+                                        </div>
+                                        <div class="card-body-footer d-flex justify-content-between mt-3">
+                                            <a href="#" class="btn btn-light card-body_button"><img src="./img/card.svg" alt="" class="mr-2">Перейти в карточку</a>
+                                            <a href="#" class="btn btn-hide" data-toggle="collapse" data-target="#collapseTwo"
+                                            aria-expanded="true" aria-controls="collapseOne">Скрыть детали</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="table-body" >
+                        <div class="card">
+                            <div class="card-header py-3 px-4" id="headingThree">
+
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center column-1 flex-nowrap">
+                                        <div class="icon-client icon-client_archive mr-2 flex-shrink-0">
+                                            <img src="./img/archive-company.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="client-name">
+                                                ООО "САТУРН"
+                                            </div>
+                                            <div class="client-content">
+                                                ИНН: <span>5404461077</span>
+                                            </div>
+                                            <div class="client-content">
+                                                ОГРН: <span>1125476079981</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex align-items-center column-2 column-2_arh justify-content-justify align-items-small">
+                                        <div class="icon-client icon-client_red mr-2">
+                                            <img src="./img/close.svg" alt="">
+                                        </div>
+                                        <div class="d-flex client-name-cont justify-content-center">
+                                            <div
+                                                class="client-name_red d-flex justify-content-center align-items-center text-white px-2">
+                                                C клиентом нет заключенных договоров
+                                            </div>
+                                            <a href="#"
+                                                class="client_red-button d-flex justify-content-center align-items-center text-white">
+                                                зключить договор
+                                            </a href="#">
+
+                                        </div>
+
+                                    </div>
+                                    
+                                   
+                                    <div class="button-acc" data-toggle="collapse" data-target="#collapseThree"
+                                        aria-expanded="true" aria-controls="collapseThree">
+                                        <img src="./img/arrow-down.svg" alt="" class="button-img">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="table-body">
+                        <div class="card">
+                            <div class="card-header py-3 px-4" id="headingFour">
+
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center column-1 flex-nowrap">
+                                        <div class="icon-client icon-client_active mr-2 flex-shrink-0">
+                                            <img src="./img/active-individual-client.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="client-name client-name_low">
+                                                Константинопольский Александр Валентинович
+                                            </div>
+                                            <div class="client-content">
+                                                ИНН: <span>Не указан</span>
+                                            </div>
+                                            <div class="client-content">
+                                                Паспорт: <span>4200 200793</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex align-items-center column-2 flex-nowrap">
+                                        <div class="icon-client icon-client_active mr-2 flex-shrink-0">
+                                            <img src="./img/documents.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="client-name">
+                                                №12-СЖ/12 от 24.01.2019
+                                            </div>
+                                            <div class="client-content">
+                                                Тип договора: <span>по норме</span>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="column-3">
+                                        <img src="./img/object.svg" alt="" class="column-3__obj">
+                                        <span class="column-3__cont">2 </span><span
+                                            class="column-3__cont">объекта</span>
+                                    </div>
+                                    <div class="column-4">
+                                        <div class="">
+                                            <img src="./img/money.svg" alt="" class="mr-1">
+                                            <span class="column-4__cont">1024</span>&nbsp;<span
+                                                class="column-4__cont">Р</span>
+                                        </div>
+                                        <div class="">
+                                            <img src="./img/recycle.svg" alt="" class="mr-1">
+                                            <span class="column-4__cont">1</span>&nbsp;<span class="column-4__cont">м<sup
+                                                    class="column-4__cont">3</sup></span>
+                                        </div>
+                                    </div>
+                                    <div class="column-5">
+                                        <div class="">
+                                            <img src="./img/area.svg" alt="" class="mr-1">
+                                            <span class="column-5__cont">2</span>&nbsp;<span
+                                                class="column-5__cont">геозоны</span>
+                                        </div>
+                                        <div class="">
+                                            <img src="./img/container.svg" alt="" class="mr-1">
+                                            <span class="column-5__cont">3</span>&nbsp;<span
+                                                class="column-5__cont">контейнера - <span
+                                                    class="column-5__cont">10.2</span>&nbsp;<span
+                                                    class="column-5__cont">м</span><sup
+                                                    class="column-5__cont">2</sup></span>
+                                        </div>
+                                    </div>
+                                    <div class="button-acc" data-toggle="collapse" data-target="#collapseFour"
+                                        aria-expanded="true" aria-controls="collapseFour">
+                                        <img src="./img/arrow-down.svg" alt="" class="button-img">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="card-body_header">Объекты клиента</div>
+                                    <div class="total mb-3">Всего объектов:&nbsp;<span>2</span></div>
+                                    <div class="card-body-table">
+                                        <div class="card-body-table_header px-4 py-3">Объект</div>
+                                        <div class="objects">
+                                            
+                                        </div>
+                                        <div class="card-body-footer d-flex justify-content-between mt-3">
+                                            <a href="#" class="btn btn-light card-body_button"><img src="./img/card.svg" alt="" class="mr-2">Перейти в карточку</a>
+                                            <a href="#" class="btn btn-hide" data-toggle="collapse" data-target="#collapseFour"
+                                            aria-expanded="true" aria-controls="collapseFour">Скрыть детали</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="table-body">
+                        <div class="card">
+                            <div class="card-header py-3 px-4" id="headingFive">
+
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center column-1 flex-nowrap">
+                                        <div class="icon-client icon-client_notactive mr-2 flex-shrink-0">
+                                            <img src="./img/not-active-individual-client.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="client-name client-name_low">
+                                                Воронов Александр Ярославович
+                                            </div>
+                                            <div class="client-content">
+                                                ИНН: <span>Не указан</span>
+                                            </div>
+                                            <div class="client-content">
+                                                Паспорт: <span>Не указан</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex align-items-center column-2">
+                                        <div class="icon-client icon-client_notactive mr-2">
+                                            <img src="./img/not-active-doc.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="client-name">
+                                                №12-СЖ/12 от 24.01.2019
+                                            </div>
+                                            <div class="client-content">
+                                                Тип договора: <span>по норме</span>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="column-3">
+                                        <img src="./img/object.svg" alt="" class="column-3__obj">
+                                        <span class="column-3__cont">1</span>&nbsp;<span
+                                            class="column-3__cont">объект</span>
+                                    </div>
+                                    <div class="column-4">
+                                        <div class="">
+                                            <img src="./img/money.svg" alt="" class="mr-1">
+                                            <span class="column-4__cont">3 687</span>&nbsp;<span
+                                                class="column-4__cont">Р</span>
+                                        </div>
+                                        <div class="">
+                                            <img src="./img/recycle.svg" alt="" class="mr-1">
+                                            <span class="column-4__cont">2.56</span>&nbsp;<span class="column-4__cont">м<sup
+                                                    class="column-4__cont">3</sup></span>
+                                        </div>
+                                    </div>
+                                    <div class="column-5">
+                                        <div class="">
+                                            <img src="./img/area.svg" alt="" class="mr-1">
+                                            <span class="column-5__cont">1</span>&nbsp;<span
+                                                class="column-5__cont">геозона</span>
+                                        </div>
+                                        <div class="">
+                                            <img src="./img/container.svg" alt="" class="mr-1">
+                                            <span class="column-5__cont">1</span>&nbsp;<span
+                                                class="column-5__cont">контейнер - <span
+                                                    class="column-5__cont">0.66</span>&nbsp;<span
+                                                    class="column-5__cont">м</span><sup
+                                                    class="column-5__cont">2</sup></span>
+                                        </div>
+                                    </div>
+                                    <div class="button-acc" data-toggle="collapse" data-target="#collapseFive"
+                                        aria-expanded="true" aria-controls="collapseFive">
+                                        <img src="./img/arrow-down.svg" alt="" class="button-img">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="card-body_header">Объекты клиента</div>
+                                    <div class="total mb-3">Всего объектов:&nbsp;<span>2</span></div>
+                                    <div class="card-body-table">
+                                        <div class="card-body-table_header px-4 py-3">Объект</div>
+                                        <div class="objects">
+                                            
+                                        </div>
+                                        <div class="card-body-footer d-flex justify-content-between mt-3">
+                                            <a href="#" class="btn btn-light card-body_button"><img src="./img/card.svg" alt="" class="mr-2">Перейти в карточку</a>
+                                            <a href="#" class="btn btn-hide" data-toggle="collapse" data-target="#collapseFive"
+                                            aria-expanded="true" aria-controls="collapseFive">Скрыть детали</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+   <!-- build:js main.min.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+     <!-- endbuild -->
+</body>
+
+</html>
