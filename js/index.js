@@ -1,3 +1,4 @@
+// https://github.com/OStefani/binman
 $(document).ready(function() {
     
     $('.collapse').each((i, obj) => {
